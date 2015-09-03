@@ -1,0 +1,20 @@
+/* disable close tab button */
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+.tab-close-button{
+  display:none !important;
+}
+
+/* disable dropmarkers */
+
+#dropmarker-icon, #historydropmarker, #autocomplete-history-dropmarker, #urlbar-history-dropmarker, #dropmarker {
+    display: none !important;
+}
+
+#autocomplete-history-dropmarker, #urlbar-history-dropmarker {
+    display: none !important;
+}
+
+.autocomplete-history-dropmarker.urlbar-history-dropmarker {
+    display: none !important;
+}
