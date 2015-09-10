@@ -18,3 +18,27 @@
 .autocomplete-history-dropmarker.urlbar-history-dropmarker {
     display: none !important;
 }
+
+/* gtk themes don't effect input bar bg colour */
+
+input:not(.urlbar-input):not(.textbox-input) {
+    -moz-appearance: none !important;
+    background-color: white;
+    color: black;
+}
+
+#downloads-indicator-counter {
+    color: white;
+}
+
+textarea {
+    -moz-appearance: none !important;
+    background-color: white;
+    color: black;
+}
+
+select {
+    -moz-appearance: none !important;
+    background-color: white;
+    color: black;
+}
